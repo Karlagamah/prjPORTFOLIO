@@ -1,0 +1,14 @@
+# Fichiers vidéo volumineux
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# Environnement virtuel Python
+env/
+venv/
+__pycache__/
+
+20261122-0320-53.8719128.mp4
+env/

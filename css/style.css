@@ -1,0 +1,49 @@
+/* Défilement doux quand on clique sur un lien du menu */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Barre de navigation */
+.navbar {
+    background-color: #1f3864;
+}
+
+/* Photo de profil : carré parfait, donc cercle avec rounded-circle */
+.photo-profil {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 4px solid #1f3864;
+}
+
+/* Titres */
+h1, h2, h3 {
+    color: #1f3864;
+}
+
+/* Cartes de projets */
+.card {
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card-img-top {
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Visualiseur CV intégré */
+.cv-frame-wrapper {
+    max-height: 600px;
+}
+.cv-frame {
+    border: 2px solid #1f3864;
+    width: 100%;
+    min-height: 500px;
+}
+
+/* Liens du footer */
+footer a:hover {
+    color: #ffc107 !important;
+}
